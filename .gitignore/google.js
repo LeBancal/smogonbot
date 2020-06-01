@@ -7,7 +7,7 @@ module.exports = class Google {
     static action (message ) {
         let args = message.content.split (' ')
         args.shift()
-        message.reply('https://www.smogon.com/dex/sm/pokemon/' + args.join('%20'))
+        message.reply('https://www.smogon.com/dex/ss/pokemon/' + args.join('%20'))
     }
 
 }
