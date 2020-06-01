@@ -3,7 +3,6 @@ const smogon = new Discord.Client()
 const google = require ('./commands/google')
 
 smogon.on('ready', function() {
-    smogon.user.setAvatar('./smogon.png')
     smogon.user.setActivity('Showdown')
 
 })
