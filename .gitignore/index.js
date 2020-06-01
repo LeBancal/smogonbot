@@ -13,4 +13,4 @@ smogon.on('message', function (message) {
         }
 })
 
-smogon.login('process.env.TOKEN')
+smogon.login(process.env.TOKEN)
