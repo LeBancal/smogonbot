@@ -20,6 +20,12 @@ module.exports = class Google {
            let args = message.content.split(' ')
            args.shift()
            message.reply('https://www.smogon.com/dex/ss/types/' + args.join('%20'))
+       }
+       if  (message.content.startsWith('!item')) {
+           let args = message.content.split(' ')
+           args.shift()
+           message.reply('https://www.smogon.com/dex/ss/item/' + args.join('%20'))
+       }
     }
 
 
