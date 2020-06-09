@@ -26,6 +26,11 @@ module.exports = class Google {
            args.shift()
            message.reply('https://www.smogon.com/dex/ss/item/' + args.join('%20'))
        }
+       if  (message.content.startsWith('!formats')) {
+           let args = message.content.split(' ')
+           args.shift()
+           message.reply('https://www.smogon.com/dex/ss/formats/' + args.join('%20'))
+       } 
     }
 
 
